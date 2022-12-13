@@ -1,5 +1,5 @@
 package com.example.crudspringboot.crudspringboot.dao;
-import com.example.crudspringboot.crudspringboot.User.User;
+import com.example.crudspringboot.crudspringboot.model.User;
 
 import java.util.List;
 

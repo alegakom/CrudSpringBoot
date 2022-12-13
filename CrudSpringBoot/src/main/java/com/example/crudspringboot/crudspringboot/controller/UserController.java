@@ -1,6 +1,6 @@
 package com.example.crudspringboot.crudspringboot.controller;
 
-import com.example.crudspringboot.crudspringboot.User.User;
+import com.example.crudspringboot.crudspringboot.model.User;
 import com.example.crudspringboot.crudspringboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

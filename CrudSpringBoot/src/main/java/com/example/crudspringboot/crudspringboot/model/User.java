@@ -1,4 +1,4 @@
-package com.example.crudspringboot.crudspringboot.User;
+package com.example.crudspringboot.crudspringboot.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -13,7 +13,7 @@ public class User {
     private Long id;
     private String name;
     private String lastName;
-    private int age;
+    private Integer age;
 
     public User() {
 

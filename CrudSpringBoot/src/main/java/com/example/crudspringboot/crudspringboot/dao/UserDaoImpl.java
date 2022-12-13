@@ -2,12 +2,12 @@ package com.example.crudspringboot.crudspringboot.dao;
 
 import java.util.List;
 
-import com.example.crudspringboot.crudspringboot.User.User;
+import com.example.crudspringboot.crudspringboot.model.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class UserDaoImpl implements UserDao {
 
     @PersistenceContext
